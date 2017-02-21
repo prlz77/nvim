@@ -1,5 +1,5 @@
 " *** Fixes *** "
-let $NVIM_TUI_ENABLE_CURSOR_SHAPE = 0
+let $NVIM_TUI_ENABLE_CURSOR_SHAPE = 0 "Solves the garbage chars problem.
 " *** Plugins *** "
 source $HOME/.config/nvim/config/plugins.vim
 
