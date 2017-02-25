@@ -2,3 +2,4 @@ autoload
 backup
 plugged
 undodir
+.netrwhist
