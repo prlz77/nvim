@@ -14,6 +14,7 @@ set lazyredraw          " redraw only when we need to.
 set showmatch           " highlight matching [{()}]
 set foldenable          " enable folding
 set autoread            " detect file changes
+set mouse=a             " allow mouse in xterm
 colorscheme gruvbox
 set background=dark
 set t_Co=256 
