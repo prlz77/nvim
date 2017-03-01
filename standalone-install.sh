@@ -10,6 +10,7 @@ rm -r neovim
 export PATH="$HOME/neovim/bin:$PATH"
 echo "export PATH=\"$HOME/neovim/bin:$PATH\"" >> ~/.bashrc
 pip install neovim
+pip3 install neovim
 # Backup dirs
 mkdir undodir
 mkdir backup
