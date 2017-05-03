@@ -11,10 +11,5 @@ export PATH="$HOME/neovim/bin:$PATH"
 echo "export PATH=\"$HOME/neovim/bin:$PATH\"" >> ~/.bashrc
 pip install neovim
 pip3 install neovim
-# Backup dirs
-mkdir undodir
-mkdir backup
-# vim-plug
-curl -fLo ./autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-vim -c :PlugInstall
+# Common configuration
+./common-install.sh

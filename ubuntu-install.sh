@@ -16,10 +16,5 @@ sudo update-alternatives --install /usr/bin/editor editor /usr/bin/nvim 60
 sudo update-alternatives --config editor
 sudo pip install neovim
 sudo pip3 install neovim
-# Backup dirs
-mkdir undodir
-mkdir backup
-# vim-plug
-curl -fLo ./autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-vim -c :PlugInstall
+# Common configuration
+./common-install.sh

@@ -1,5 +1,8 @@
 " *** Fixes *** "
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE = 0 "Solves the garbage chars problem.
+let $VTE_VERSION="100"
+set guicursor=
+
 " *** Plugins *** "
 source $HOME/.config/nvim/config/plugins.vim
 
@@ -8,6 +11,7 @@ set number              " show line numbers
 set showcmd             " show command in bottom bar
 set showmode            " show current mode
 set ruler
+set colorcolumn=80
 set cursorline          " highlight current line
 set wildmenu            " visual autocomplete for command menu
 set lazyredraw          " redraw only when we need to.
@@ -54,5 +58,4 @@ set undoreload=1000
 
 set backupdir=~/.config/nvim/backup
 set directory=~/.config/nvim/backup
-
 
