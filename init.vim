@@ -21,7 +21,7 @@ set autoread            " detect file changes
 set mouse=a             " allow mouse in xterm
 colorscheme gruvbox
 set background=dark
-set t_Co=256 
+"set t_Co=256 
 
 set clipboard=unnamedplus " clipboard
 
