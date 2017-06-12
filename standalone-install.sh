@@ -9,7 +9,7 @@ cd ..
 rm -r neovim
 export PATH="$HOME/neovim/bin:$PATH"
 echo "export PATH=\"$HOME/neovim/bin:$PATH\"" >> ~/.bashrc
-pip install neovim
-pip3 install neovim
+pip install --user neovim
+pip3 install --user neovim
 # Common configuration
 ./common-install.sh
