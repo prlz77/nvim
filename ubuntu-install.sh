@@ -17,3 +17,4 @@ sudo update-alternatives --config editor
 sudo pip install neovim
 sudo pip3 install neovim
 # Common configuration
+. common_install.sh
